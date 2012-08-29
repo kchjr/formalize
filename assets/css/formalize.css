@@ -1,36 +1,3 @@
-.input_tiny {
-  width: 50px;
-}
-
-.input_small {
-  width: 100px;
-}
-
-.input_medium {
-  width: 150px;
-}
-
-.input_large {
-  width: 200px;
-}
-
-.input_xlarge {
-  width: 250px;
-}
-
-.input_xxlarge {
-  width: 300px;
-}
-
-.input_full {
-  width: 100%;
-}
-
-.input_full_wrap {
-  display: block;
-  padding-right: 8px;
-}
-
 input[type="search"]::-webkit-search-decoration {
   display: none;
 }
@@ -313,7 +280,6 @@ optgroup::-moz-focus-inner {
   padding: 0;
 }
 
-.ie6_button,
 * html button,
 * html a.button {
   background: #dddddd url('../images/button.png?1298351022') repeat-x;
@@ -340,7 +306,6 @@ optgroup::-moz-focus-inner {
   padding-bottom: 1px;
 }
 
-.ie6_input,
 * html textarea,
 * html select {
   background: white;
@@ -357,12 +322,6 @@ optgroup::-moz-focus-inner {
   margin-top: 1px;
 }
 
-.placeholder_text,
-.ie6_input_disabled,
-.ie6_button_disabled {
+.placeholder_text {
   color: #888888;
-}
-
-.ie6_input_disabled {
-  background: #eeeeee;
 }
